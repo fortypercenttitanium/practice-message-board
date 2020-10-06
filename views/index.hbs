@@ -1,0 +1,10 @@
+<h1>Welcome to the Message Board</h1>
+<h2><a href="/new">Post a message</a></h2>
+<ul>
+	{{#each messages}}
+	<li>
+		<h1>{{ text }}</h1>
+		<p>Posted by {{ user }} at {{ added }}</p>
+	</li>
+	{{/each}}
+</ul>
